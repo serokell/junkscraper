@@ -1,0 +1,6 @@
+{application, junkscraper,
+ [{applications, [cowboy, gun, json]},
+  {description, "GitHub branch garbage collector"},
+  {env, [{port, 65167}]},
+  {mod, {junkscraper_app, []}},
+  {vsn, "20180429.174058"}]}.
